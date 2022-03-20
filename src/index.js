@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createStore } from 'redux';
+import { reducerCount } from './reducerCounter';
+//export const store = createStore(reducerCount,window._REDUX_DEVTOOLS_EXTENSION_ && window._REDUX_DEVTOOLS_EXTENSION_());
+
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
